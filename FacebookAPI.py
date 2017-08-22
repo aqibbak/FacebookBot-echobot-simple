@@ -376,6 +376,5 @@ def set_get_started_button():
     print r.content
     if r.status_code != requests.codes.ok:
         print r.text
-
 # set_menu()
 # set_get_started_button()
